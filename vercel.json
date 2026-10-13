@@ -43,7 +43,7 @@
       "destination": "/airo-assets/images/pages/products/hero.jpg"
     },
     {
-      "source": "/((?!api/|airo-assets/|assets/|favicon).*)",
+      "source": "/:path*",
       "destination": "/index.html"
     }
   ]
