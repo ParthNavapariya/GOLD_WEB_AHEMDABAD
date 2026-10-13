@@ -3,7 +3,47 @@
   "cleanUrls": true,
   "rewrites": [
     {
-      "source": "/((?!api/).*)",
+      "source": "/airo-assets/images/logo/horizontal",
+      "destination": "/airo-assets/images/logo/horizontal.png"
+    },
+    {
+      "source": "/airo-assets/images/logo/favicon",
+      "destination": "/airo-assets/images/logo/favicon.png"
+    },
+    {
+      "source": "/airo-assets/images/pages/home/hero",
+      "destination": "/airo-assets/images/pages/home/hero.jpg"
+    },
+    {
+      "source": "/airo-assets/images/pages/home/gold-bars-coins",
+      "destination": "/airo-assets/images/pages/home/gold-bars-coins.jpg"
+    },
+    {
+      "source": "/airo-assets/images/pages/home/why-choose-us",
+      "destination": "/airo-assets/images/pages/home/why-choose-us.png"
+    },
+    {
+      "source": "/airo-assets/images/pages/services/hero",
+      "destination": "/airo-assets/images/pages/services/hero.jpg"
+    },
+    {
+      "source": "/airo-assets/images/pages/about/hero",
+      "destination": "/airo-assets/images/pages/about/hero.jpg"
+    },
+    {
+      "source": "/airo-assets/images/pages/about/team-trading-floor",
+      "destination": "/airo-assets/images/pages/about/team-trading-floor.jpg"
+    },
+    {
+      "source": "/airo-assets/images/pages/market-insights/hero",
+      "destination": "/airo-assets/images/pages/market-insights/hero.jpg"
+    },
+    {
+      "source": "/airo-assets/images/pages/products/hero",
+      "destination": "/airo-assets/images/pages/products/hero.jpg"
+    },
+    {
+      "source": "/((?!api/|airo-assets/|assets/|favicon).*)",
       "destination": "/index.html"
     }
   ]
