@@ -1,6 +1,5 @@
 {
   "outputDirectory": "dist/client",
-  "cleanUrls": true,
   "rewrites": [
     {
       "source": "/airo-assets/images/logo/horizontal",
@@ -43,7 +42,7 @@
       "destination": "/airo-assets/images/pages/products/hero.jpg"
     },
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
